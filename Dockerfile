@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run the application when the container launches, and then keep it running indefinitely
-CMD ["sh", "-c", "python ./pipeline.py && tail -f /dev/null"]
+CMD ["sh", "-c", "python ./data_pipeline.py && tail -f /dev/null"]
