@@ -67,9 +67,9 @@ print(f'Data saved successfully to {output_file_path}.')
 # --------------------------------------------
 print('Generating project summaries...')
 
-project_summaries_paths = projects_analytics.generate_project_summaries(merged_df)
+project_summaries_path = projects_analytics.generate_project_summaries(merged_df)
 
-print(f'Project summaries generated successfully.')
+print(f'Project summaries generated successfully. Saved to {project_summaries_path}.')
 print('Pipeline finished successfully.')
 
 
