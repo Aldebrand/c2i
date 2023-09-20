@@ -22,7 +22,7 @@ Before proceeding, ensure you have the following software installed on your mach
 1. Clone the repository:
    ```bash
    git clone https://github.com/Aldebrand/c2i.git
-   cd <repository_directory>
+   cd c2i
    ```
 
 2. Build the Docker image:
