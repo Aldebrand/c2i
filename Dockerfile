@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 
 # Install Python dependencies without storing cache, to keep the image small
-RUN pip install --no-cache-dir -r requierments.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application's code into the container
 COPY . .
